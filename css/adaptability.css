@@ -1,0 +1,106 @@
+
+@media screen and (min-width: 1024px){
+
+    img#logo{
+        width:12.5%;
+        height:12.5%;
+    }
+
+    a.flags>img{
+        height: 3.9vh;
+        width: 6.5vh;
+    }
+
+    h2.title{
+        font-size: 2.5em;
+    }
+
+    .text{
+        font-size: 1.32em;
+    }
+
+    .s-title{
+        font-size: 1.22em;
+    }
+    
+    .s-text{
+        font-size: 1.02em;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+
+    .nav-links{
+        font-size:1.9em;
+    }
+
+    img.contacts-ico{
+        width:8%;
+        height:8%;
+    }
+
+    .text{
+        font-size: 1.45em;
+    }
+
+    .s-title{
+        font-size: 1.35em;
+    }
+    
+    .s-text{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    h2.title{
+        font-size: 3em;
+    }
+
+    .text{
+        font-size: 1.5em;
+    }
+    
+    .s-title{
+        font-size: 1.37em;
+    }
+    
+    .s-text{
+        font-size: 1.27em;
+    }
+
+}
+
+@media screen and (min-width: 1920px){
+
+    .nav-links{
+        font-size:2.2em;
+    }
+
+    img.contacts-ico{
+        width:8.5%;
+        height:8.5%;
+    }
+
+    a.flags>img{
+        height: 4.2vh;
+        width: 7vh;
+    }
+
+    .text{
+        font-size: 1.9em;
+    }
+
+    .s-title{
+        font-size: 1.7em;
+    }
+    
+    .s-text{
+        font-size: 1.4em;
+    }
+
+    h2.title{
+        font-size: 4em;
+    }
+}

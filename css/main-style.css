@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+/* Закончить стили. main-block-2*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Стили для header*/
+
+header{
+    position: absolute;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+div#header-wrapper {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#header-content-main{
+    display: flex;
+    align-items: center;
+}
+
+img#logo{
+    width:13%;
+    height:13%;
+}
+
+.nav-links{ 
+    font-family: PT Serif, serif;
+    font-size:1.5em;
+    color:white;
+    text-decoration: none;
+    margin:0 4px;
+}
+
+img.contacts-ico{
+    width:7%;
+    height:7%;
+}
+
+div#header-lang-wrapper{
+    margin-right: 4vh;
+    display: inline-flex;
+}
+
+a.flags>img{
+    width:5vh;
+    height:3vh;
+}
+
+a.flags{
+    margin: 0 1vh;
+}
+
+/*Стили для main*/
+
+main{
+    width: 100%;
+    margin-top: 0;
+    margin:0;
+    padding:0;
+}
+
+div#main-wrapper{
+    width: 100%;
+}
+
+div#main-block-1{
+    object-position: left top; 
+}
+
+div#main-block-1{
+    background: url(../img/block-1-backgound.jpg) center no-repeat; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} 
+/* Background photo  <----------------*/
+
+#name-wrapper{
+    border: solid 1px white;
+    background-color: rgba(0, 0, 0, 53%);
+    width: 55%;
+    height:auto;
+}
+
+h1#main-name{
+    text-align: center;
+}
+
+p.name{
+    color:white;
+}
+
+#main-name-1{
+    font-family: 'PT Serif', serif;
+    font-size: 0.9em;
+    font-weight:lighter;
+    margin-bottom:0;
+    margin-top:1vw;
+}
+
+#main-name-2{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2em;
+    font-weight:lighter;
+    margin:0;
+    padding:0;
+}
+
+#main-name-3{
+    font-family: 'PT Serif', serif;
+    font-size: 0.9em;
+    font-weight:lighter;
+    margin-top:0;
+    margin-bottom:1vw;
+}
+ 
+div#main-block-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+div#block-2-text{
+    width:45%;
+}
+
+div#block-2-photo{
+    width:27%;
+}
+
+img#photo-main-block-2{
+    width: 100%;
+    height: 100%;
+}
+
+h2.title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5em;
+    font-weight:bold;
+    margin-bottom:1vh;
+}
+
+.text{
+    font-family: PT Serif, serif;
+    font-size: 1.2em;
+    font-weight:lighter;
+}
+
+div#main-block-3{
+    background: url(../img/block-3-background.jpg);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+h2#title-2{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-size: 10em;
+    font-weight: bold;
+    padding: 2vh;
+}
+
+div#main-block-4{
+    display: flex;
+    align-items: top;
+    justify-content:space-around;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.block-4-div{
+    width:35%;
+}
+
+a#block-4-link{
+    color: #2599e6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Стили для footer*/
+
+.s-title{
+    font-family: PT Serif, serif;
+    font-size: 1.4em;
+    margin-bottom:1vh;
+    margin-top:1vh;
+    color:white;
+    font-weight:lighter;
+}
+
+.s-text{
+    text-indent: 0.7em;
+    font-family: PT Serif, serif;
+    font-size: 0.9em;
+    font-weight:lighter;
+    color:white;
+}
+
+.nav-links-s{
+    color:white;
+    text-decoration: none;
+}
+
+div#all-footer{
+    background: #181617;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding:3vh;
+}
+
+div#footer-1{
+    width:50%;
+}
+
+div#footer-2{
+    width:30%;
+}
+
+.f-links{
+    color: #2599e6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Уникальные стили для страницы*/
+
+a#main-page{
+    text-decoration:underline 2px;
+    color: #2599e6;
+}
+
