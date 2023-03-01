@@ -12,5 +12,4 @@ function trans_ua(){
     document.getElementById('footer-1').innerHTML = "<h6 class='s-title' id='footer-title-1'>Подяки</h6><p class='s-text'>Ми хотіли би виразити подяку усім хто нас підтримує та купує наших собак. Окремо дякуємо, розпліднику Elen house. </p><p class='s-text'>Ми дуже вдячні платформі <a href='https://freeicons.io/' target='_blank' class='f-links'>Freeicons.io</a>, <a href='https://freeicons.io/profile/3' target='_blank' class='f-links'>@icon king1</a>, за надання нам іконок для створення сайту, та фотографу @nataly.mazulevska.photo, за її чудові фотографії. </p><p class='s-text'>Дякуємо, за те що ви є!</p>";
     document.getElementById('footer-2').innerHTML = " <h6 class='s-title' id='footer-title-2'>Навігація</h6><div><a class='nav-links-s s-text' id='main-page' href='../html/index.html'>Головна</a><a class='nav-links-s s-text' href='../html/our-dogs.html' target='_blank'>Наші собаки</a><a class='nav-links-s s-text' href='../html/our-history.html' target='_blank'>Наша історія</a></div><h6 class='s-title' id='footer-con'>Наші контакти</h6><div class='s-text'>тел.: +380-67-290-20-31;+ 48-787-390-683</div>";   
 }
-
               
