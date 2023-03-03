@@ -17,24 +17,24 @@ header{
     margin-top: 5vh;
 }
 
-div#header-wrapper {
+.header-wrapper {
     width:100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-div#header-content-main{
+.header-main-part{
     display: flex;
     align-items: center;
 }
 
-img#logo{
+.header-main-part__logo{
     width:13%;
     height:13%;
 }
 
-.nav-links{ 
+.header-main-part-inf-links__link{ 
     font-family: PT Serif, serif;
     font-size:1.5em;
     color:white;
@@ -42,26 +42,21 @@ img#logo{
     margin:0 4px;
 }
 
-img.contacts-ico{
+.header-main-part-inf-contacs__contact-ico{
     width:7%;
     height:7%;
 }
 
-div#header-lang-wrapper{
+.header-lang{
     margin-right: 4vh;
     display: inline-flex;
 }
 
-a.flags>img{
+.header-lang__flag{
     width:5vh;
     height:3vh;
-}
-
-a.flags{
     margin: 0 1vh;
 }
-
-/*Стили для main*/
 
 main{
     width: 100%;
@@ -88,7 +83,6 @@ div#main-block-1{
     justify-content: center;
     height: 100vh;
 } 
-/* Background photo  <----------------*/
 
 #name-wrapper{
     border: solid 1px white;
@@ -128,23 +122,16 @@ p.name{
     margin-top:0;
     margin-bottom:1vw;
 }
- 
-div#main-block-2{
-    align-items: center;
-    justify-content:center;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-}
 
-div#block-2-text{
-    width:45%;
-}
-
-h2.title{
+/*h2.title{
     font-family: 'Open Sans', sans-serif;
     font-size: 3.5em;
     font-weight:bold;
     margin-bottom:1vh;
+}
+
+div#block-2-text{
+    margin: 4vh 5vw 4vh 5vw;
 }
 
 .text{
@@ -188,8 +175,6 @@ a#block-4-link{
     font-weight: bold;
     text-decoration: none;
 }
-
-/*Стили для footer*/
 
 .s-title{
     font-family: PT Serif, serif;
@@ -235,10 +220,8 @@ div#footer-2{
     text-decoration: none;
 }
 
-/*Уникальные стили для страницы*/
-
 a#main-page{
     text-decoration:underline 2px;
     color: #2599e6;
 }
-
+ */
