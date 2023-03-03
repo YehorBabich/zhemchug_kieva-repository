@@ -11,19 +11,6 @@
     #main-name-3{
         font-size: 0.8em;
     }
-
-    div#block-2-photo{
-        width:37%;
-    } 
-}
-
-@media screen and (min-width: 1280px){
-    
-    img#photo-main-block-2{
-        width:30%;
-    }
-
-    
 }
 
 @media screen and (min-width: 1349px){
@@ -38,7 +25,6 @@
     }
 
 }
-
 
 @media screen and (min-width: 1600px){
 
@@ -77,11 +63,7 @@
     #main-name-3{
         font-size: 1.2em;
     }
-
-    img#photo-main-block-2{
-        width:30%;
-    }
-
+    
     h2#title-2{
         font-size: 15em;
     }
