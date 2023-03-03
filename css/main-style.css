@@ -52,12 +52,12 @@ div#header-lang-wrapper{
     display: inline-flex;
 }
 
-a.flags>img{
+img.flags{
     width:5vh;
     height:3vh;
 }
 
-a.flags{
+img.flags{
     margin: 0 1vh;
 }
 
@@ -128,23 +128,16 @@ p.name{
     margin-top:0;
     margin-bottom:1vw;
 }
- 
-div#main-block-2{
-    align-items: center;
-    justify-content:center;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-}
-
-div#block-2-text{
-    width:45%;
-}
 
 h2.title{
     font-family: 'Open Sans', sans-serif;
     font-size: 3.5em;
     font-weight:bold;
     margin-bottom:1vh;
+}
+
+div#block-2-text{
+    margin: 4vh 5vw 4vh 5vw;
 }
 
 .text{
