@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
-/* доделать с учетом методологии БЭМ */
-
-/* Закончить стили. main-block-2*/
-
 *{
     margin: 0;
     padding: 0;
 }
 
-/*Стили для header*/
-
-header{
+.header_position{
     position: absolute;
     width: 100%;
     margin-top: 5vh;
@@ -34,6 +28,11 @@ header{
     height:13%;
 }
 
+.header-main-part-inf{
+    display: flex;
+    flex-direction: column;
+}
+
 .header-main-part-inf-links__link{ 
     font-family: PT Serif, serif;
     font-size:1.5em;
@@ -43,8 +42,8 @@ header{
 }
 
 .header-main-part-inf-contacs__contact-ico{
-    width:7%;
-    height:7%;
+    width:9%;
+    height:9%;
 }
 
 .header-lang{
@@ -58,67 +57,65 @@ header{
     margin: 0 1vh;
 }
 
-main{
+.main_position{
     width: 100%;
     margin-top: 0;
     margin:0;
     padding:0;
 }
 
-div#main-wrapper{
+.main-wrapper{
     width: 100%;
 }
 
-div#main-block-1{
-    object-position: left top; 
-}
-
-div#main-block-1{
+.section-1-titles-wrapper{
     background: url(../img/block-1-backgound.jpg) center no-repeat; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
     display:flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-} 
+    justify-content: center; 
+}
 
-#name-wrapper{
-    border: solid 1px white;
+.section-1-titles{
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    border: solid 1px white; 
     background-color: rgba(0, 0, 0, 53%);
-    width: 55%;
-    height:auto;
-}
-
-h1#main-name{
-    text-align: center;
-}
-
-p.name{
     color:white;
+    width: 55%;
 }
 
-#main-name-1{
+.section-1-titles__title{
+    font-weight:lighter;
+}
+
+.section-1-titles__title_styles-1{
     font-family: 'PT Serif', serif;
-    font-size: 0.9em;
-    font-weight:lighter;
-    margin-bottom:0;
-    margin-top:1vw;
+    font-size: 1.5;
 }
 
-#main-name-2{
+.section-1-titles__title_styles-2{
     font-family: 'Playfair Display SC', serif;
-    font-size: 2em;
-    font-weight:lighter;
+    font-size: 3.5em;
+}
+
+.section-1-titles__title_position-1{
+    margin-bottom:0;
+    margin-top:1vw; 
+}
+
+.section-1-titles__title_position-2{
     margin:0;
     padding:0;
 }
 
-#main-name-3{
-    font-family: 'PT Serif', serif;
-    font-size: 0.9em;
-    font-weight:lighter;
+.section-1-titles__title_position-3{
     margin-top:0;
     margin-bottom:1vw;
 }
