@@ -169,7 +169,6 @@
     color:white;
     font-size: 10em;
     font-weight: bold;
-    padding: 2vh;
     background: url(../img/block-3-background.jpg);
     display: flex;
     align-items: center;
@@ -177,6 +176,10 @@
     overflow: hidden;
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.section-3__title_p{
+    padding: 2vh;
 }
 
 .section-3-columns{
